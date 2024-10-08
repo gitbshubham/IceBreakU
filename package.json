@@ -1,0 +1,19 @@
+{
+  "name": "omegle-clone",
+  "version": "1.0.0",
+  "description": "A real-time chat application similar to Omegle",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "mocha": "^9.1.3"
+  }
+}
